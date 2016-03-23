@@ -112,8 +112,8 @@
 		    <Item text="Subject" url="outlook/1.1/Subject" Version="V1.1" />
 		    <Item text="Time" url="outlook/1.1/Time" Version="V1.1" />
 		  </Item>
-		  <Item text="Simple Types" url="outlook/simple-types" Version="V1.1">
-        <Item text="AsyncResult" url="outlook/simple-types#asyncresult" Version="V1.1" />
+		  <Item text="Simple Types" url="outlook/1.1/simple-types" Version="V1.1" />
+       <!-- <Item text="AsyncResult" url="outlook/simple-types#asyncresult" Version="V1.1" />
         <Item text="AttachmentDetails" url="outlook/simple-types#attachmentdetails" Version="V1.1" />
         <Item text="Contact" url="outlook/simple-types#contact" Version="V1.1" />
         <Item text="EmailAddressDetails" url="outlook/simple-types#emailaddressdetails" Version="V1.1" />
@@ -123,19 +123,18 @@
         <Item text="MeetingSuggestion" url="outlook/simple-types#contact" Version="V1.1" />
         <Item text="PhoneNumber" url="outlook/simple-types#phonenumber" Version="V1.1" />
         <Item text="TaskSuggestion" url="outlook/simple-types#tasksuggestion" Version="V1.1" />
-    </Item>
-		  <Item text="Enumerations" url="outlook/Office.MailboxEnums" Version="V1.1">  
-      <Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.1" />
+    </Item>-->
+		  <Item text="Enumerations" url="outlook/1.1/Office.MailboxEnums" Version="V1.1" />  
+      <!--<Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.1" />
       <Item text="Office.CoercionType" url="outlook/Office#coerciontype-string" Version="V1.1" />
       <Item text="Office.MailboxEnums.AttachmentType" url="outlook/Office.MailboxEnums#attachmenttype-string" Version="V1.1" />
       <Item text="Office.MailboxEnums.EntityType" url="outlook/Office.MailboxEnums#entitytype-string" Version="V1.1" />
       <Item text="Office.MailboxEnums.ItemType" url="outlook/Office.MailboxEnums#itemtype-string" Version="V1.1" />
       <Item text="Office.MailboxEnums.RecipientType" url="outlook/Office.MailboxEnums#recipienttype-string" Version="V1.1" />
       <Item text="Office.MailboxEnums.ResponseType" url="outlook/Office.MailboxEnums#responsetype-string" Version="V1.1" />
-      <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.1" />
+      <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.1" />-->
     </Item>   
-   </Item>
-		<Item text="1.2" url="outlook/1.2/index" Version="V1.2">
+   <Item text="1.2" url="outlook/1.2/index" Version="V1.2">
 	    <Item text="Object Models" url="outlook/1.2" Version="V1.2">
 		    <Item text="Office.context" url="outlook/1.2/Office.context" Version="V1.2" />
 		    <Item text="Office.context.mailbox" url="outlook/1.2/Office.context.mailbox" Version="V1.2" />
@@ -152,7 +151,8 @@
 		    <Item text="Subject" url="outlook/1.2/Subject" Version="V1.2" />
 		    <Item text="Time" url="outlook/1.2/Time" Version="V1.2" />
 		  </Item>
-		  <Item text="Simple Types" url="outlook/simple-types" Version="V1.2">
+		  <Item text="Simple Types" url="outlook/1.2/simple-types" Version="V1.2" />
+        <!--
         <Item text="AsyncResult" url="outlook/simple-types#asyncresult" Version="V1.2" />
         <Item text="AttachmentDetails" url="outlook/simple-types#attachmentdetails" Version="V1.2" />
         <Item text="Contact" url="outlook/simple-types#contact" Version="V1.2" />
@@ -163,17 +163,18 @@
         <Item text="MeetingSuggestion" url="outlook/simple-types#contact" Version="V1.2" />
         <Item text="PhoneNumber" url="outlook/simple-types#phonenumber" Version="V1.2" />
         <Item text="TaskSuggestion" url="outlook/simple-types#tasksuggestion" Version="V1.2" />
-    </Item>
-		  <Item text="Enumerations" url="outlook/Office.MailboxEnums" Version="V1.2">  
-      <Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.2" />
-      <Item text="Office.CoercionType" url="outlook/Office#coerciontype-string" Version="V1.2" />
-      <Item text="Office.MailboxEnums.AttachmentType" url="outlook/Office.MailboxEnums#attachmenttype-string" Version="V1.2" />
-      <Item text="Office.MailboxEnums.EntityType" url="outlook/Office.MailboxEnums#entitytype-string" Version="V1.2" />
-      <Item text="Office.MailboxEnums.ItemType" url="outlook/Office.MailboxEnums#itemtype-string" Version="V1.2" />
-      <Item text="Office.MailboxEnums.RecipientType" url="outlook/Office.MailboxEnums#recipienttype-string" Version="V1.2" />
-      <Item text="Office.MailboxEnums.ResponseType" url="outlook/Office.MailboxEnums#responsetype-string" Version="V1.2" />
-      <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.2" />
-    </Item> 
+        -->
+      <Item text="Enumerations" url="outlook/1.2/Office.MailboxEnums" Version="V1.2" />  
+        <!--
+        <Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.2" />
+        <Item text="Office.CoercionType" url="outlook/Office#coerciontype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.AttachmentType" url="outlook/Office.MailboxEnums#attachmenttype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.EntityType" url="outlook/Office.MailboxEnums#entitytype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.ItemType" url="outlook/Office.MailboxEnums#itemtype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.RecipientType" url="outlook/Office.MailboxEnums#recipienttype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.ResponseType" url="outlook/Office.MailboxEnums#responsetype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.2" /> 
+     </Item> -->
     </Item>
     
     <!-- V1.3 or latest. This doesn't have a url with the version number-->

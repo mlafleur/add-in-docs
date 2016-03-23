@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SupportedProduct="|Excel|Word|Access|PowerPoint|Outlook|Project|" SupportedVersion="|V1.1|V1.2|V1.3|">
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SupportedProduct="|Word|Excel|PowerPoint|Outlook|Project|Access|" SupportedVersion="|V1.1|V1.2|V1.3|">
   <Item text="Overview" url="overview">
     <Item text="Platform overview" url="overview/office-add-ins" />
 	<Item text="Requirements for running add-ins" url="overview/requirements-for-running-office-add-ins" />	
-	<Item text="Where are add-ins supported?" url="dev.office.com/add-in-availability" />
-  </Item>
+	</Item>
   <Item text="Get Started" url="get-started">
     <Item text="Use Visual Studio" url="get-started/create-and-debug-office-add-ins-in-visual-studio" />
 	  <Item text="Use any editor" url="get-started/create-an-office-add-in-using-any-editor" />

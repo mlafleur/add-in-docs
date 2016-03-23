@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SupportedProduct="|Excel|Word|Access|PowerPoint|Outlook|Project|" SupportedVersion="|V1.1|V1.2|V1.3|">
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SupportedProduct="|Word|Excel|PowerPoint|Outlook|Project|Access|" SupportedVersion="|V1.3|V1.2|V1.1|">
   <Item text="Manifest" url="manifest">
     <Item text="allowsnapshot" url="manifest/allowsnapshot" Scope="excel, powerpoint" />
     <Item text="alternateid" url="manifest/alternateid" Scope="excel, word, powerpoint, access, project" />

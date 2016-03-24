@@ -185,8 +185,7 @@
 		  <Item text="Office.context.mailbox" url="outlook/Office.context.mailbox" Version="V1.3" />
 		  <Item text="Office.context.mailbox.item" url="outlook/Office.context.mailbox.item" Version="V1.3" />
 		  <Item text="Office.context.mailbox.userProfile" url="outlook/Office.context.mailbox.userProfile" Version="V1.3" />
-		  <Item text="Office" url="outlook/Office" Version="V1.3" />
-		</Item>
+			</Item>
 		<Item text="Complex Types" url="outlook"  Version="V1.3">
 		  <Item text="Body" url="outlook/Body" Version="V1.3" />
 		  <Item text="CustomProperties" url="outlook/CustomProperties" Version="V1.3" />

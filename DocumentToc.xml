@@ -1,64 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SupportedProduct="|Word|Excel|PowerPoint|Outlook|Project|Access|" SupportedVersion="|V1.1|V1.2|V1.3|">
   <Item text="Overview" url="overview">
-    <Item text="Platform overview" url="overview/office-add-ins" />
-	<Item text="Requirements for running add-ins" url="overview/requirements-for-running-office-add-ins" />	
+    <Item text="Platform overview" url="overview/office-add-ins" SEODescription="Learn about Office Add-ins that allow you to make your solution a native part of Office across Windows, Office Online, Mac and the IPad." />
+	<Item text="Requirements for running add-ins" url="overview/requirements-for-running-office-add-ins" SEODescription="Learn about the software and device requirements for running Office Add-ins." />	
 	</Item>
   <Item text="Get Started" url="get-started">
-    <Item text="Use Visual Studio" url="get-started/create-and-debug-office-add-ins-in-visual-studio" />
-	  <Item text="Use any editor" url="get-started/create-an-office-add-in-using-any-editor" />
-    <Item text="Use Napa" url="get-started/create-an-office-add-in-with-napa" />
+    <Item text="Use Visual Studio" url="get-started/create-and-debug-office-add-ins-in-visual-studio" SEODescription="Get started building an Office Add-in with Visual Studio" />
+	  <Item text="Use any editor" url="get-started/create-an-office-add-in-using-any-editor" SEODescription="Get started building Office Add-ins with any editor, on a Mac or Windows PC. " />
+    <Item text="Use Napa" url="get-started/create-an-office-add-in-with-napa" SEODescription="Get started with Office Add-ins by using Napa Office 365 Development Tools from your browser to create a basic content, task pane, or Outlook add-in for Excel, Outlook, PowerPoint, Project, or Word." />
   </Item>
   <Item text="Design" url="design/add-in-design">
-    <Item text="Add-in development best practices" url="design/add-in-development-best-practices"  />
-	<Item text="UI Elements" url="design/ui-elements/ui-elements" >
-      <Item text="Interaction Patterns" url="design/ui-elements/interaction-patterns" />
-      <Item text="Layout for content add-ins" url="design/ui-elements/layout-for-content-add-ins"  />
-      <Item text="Layout for task pane add-ins" url="design/ui-elements/layout-for-task-pane-add-ins" />
+    <Item text="Add-in development best practices" url="design/add-in-development-best-practices" SEODescription="Apply best practices to build Office Add-ins that optimize the user experience."  />
+	<Item text="UI Elements" url="design/ui-elements/ui-elements" SEODescription="Use add-in commands, Fabric UI, and custom HTML interfaces to make compelling add-in user interfaces.">
+      <Item text="Interaction Patterns" url="design/ui-elements/interaction-patterns"  />
+      <Item text="Layout for content add-ins" url="design/ui-elements/layout-for-content-add-ins" SEODescription="Create a consistent look and feel for your content add-ins by using the recommended design layout."  />
+      <Item text="Layout for task pane add-ins" url="design/ui-elements/layout-for-task-pane-add-ins" SEODescription="Create a consistent look and feel for task pane add-ins by using the recommended design layout." />
       <Item text="Layouts for Outlook add-ins" url="design/ui-elements/layouts-for-outlook-add-ins" SEODescription="Use these layouts for mail add-ins" Scope="outlook" />
-      <Item text="Using Office UI Fabric" url="design/ui-elements/using-office-ui-fabric" />
+      <Item text="Using Office UI Fabric" url="design/ui-elements/using-office-ui-fabric" SEODescription="Walks you through the basics for using Fabric."/>
     </Item>
-	<Item text="Add-in commands for Excel and Word (Preview)" url="design/add-in-commands-for-excel-and-word-preview"  />
-    
-	<Item text="Design Office Add-ins for the iPad" url="design/design-office-add-ins-for-the-ipad"  />
+	<Item text="Add-in commands for Excel and Word (Preview)" url="design/add-in-commands-for-excel-and-word-preview" SEODescription="Use add-in commands in your add-in to extend the default Office UI in Excel, Word, and PowerPoint."  />
+	<Item text="Design Office Add-ins for the iPad" url="design/design-office-add-ins-for-the-ipad"  SEODescription="Make your Office Add-ins available in Office for iPad." />
   </Item>
   <Item text="Develop" url="develop">
-	<Item text="Add-in development lifecycle" url="design/add-in-development-lifecycle" />
+	<Item text="Add-in development lifecycle" url="design/add-in-development-lifecycle" SEODescription="Plan the end-to-end process for developing task pane, content, and Outlook add-ins to extend Office applications." />
 	<Item text="Manifest" url="overview/add-in-manifests">	
-		<Item text="Specify Office hosts" url="overview/specify-office-hosts-and-api-requirements" /> 	
-		<Item text="Create add-in commands in your manifest (Preview)" url="design/create-add-in-commands-in-your-manifest-preview"    />
-		<Item text="Requesting permissions for API use in content and task pane add-ins" url="develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins"   />
-		<Item text="Update API and manifest version" url="develop/update-your-javascript-api-for-office-and-manifest-schema-version" />
+		<Item text="Specify Office hosts" url="overview/specify-office-hosts-and-api-requirements" SEODescription="" /> 	
+		<Item text="Create add-in commands in your manifest (Preview)" url="design/create-add-in-commands-in-your-manifest-preview" SEODescription="Add-in commands provide an easy way to customize the default Office UI with specified UI elements that perform actions."   />
+		<Item text="Requesting permissions for API use in content and task pane add-ins" url="develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins" SEODescription=""  />
+		<Item text="Update API and manifest version" url="develop/update-your-javascript-api-for-office-and-manifest-schema-version" SEODescription="Update the JavaScript files (Office.js and app-specific .js files) and the add-in manifest validation file used in your Office Add-in project to version 1.1." />
 	</Item>	
-	<Item text="Office JavaScript API" url="develop/understanding-the-javascript-api-for-office">
-		<Item text="Support for content and task pane add-ins" url="develop/support-for-content-and-task-pane-add-ins" />
-		<Item text="Reference Office.js" url="develop/referencing-the-javascript-api-for-office-library-from-its-cdn" />
-		<Item text="Load Office.js" url="develop/loading-the-dom-and-runtime-environment" />
-		<Item text="Asynchronous programming in Office Add-ins" url="develop/asynchronous-programming-in-office-add-ins" />
-		<Item text="Persist state and settings" url="develop/persisting-add-in-state-and-settings" />
+	<Item text="Office JavaScript API" url="develop/understanding-the-javascript-api-for-office" SEODescription="Understand the functional areas of the JavaScript API for Office, which is implemented in the Office.js file.">
+		<Item text="Support for content and task pane add-ins" url="develop/support-for-content-and-task-pane-add-ins" SEODescription="Describes the different permission levels that you can declare in your content or task pane add-in's manifest to specify the level of JavaScript API access your add-in requires for its features." />
+		<Item text="Reference Office.js" url="develop/referencing-the-javascript-api-for-office-library-from-its-cdn" SEODescription="Reference the JavaScript API for Office library (Office.js and associated application-specific .js files) from its content delivery network (CDN) location." />
+		<Item text="Load Office.js" url="develop/loading-the-dom-and-runtime-environment" SEODescription="An add-in must ensure that both the DOM and the Office Add-ins runtime environment are loaded before running its own custom logic." />
+		<Item text="Asynchronous programming in Office Add-ins" url="develop/asynchronous-programming-in-office-add-ins" SEODescription="Develop Office Add-ins using the nested callbacks and promises patterns asynchronous programming patterns supported by the JavaScript API for Office." />
+		<Item text="Persist state and settings" url="develop/persisting-add-in-state-and-settings" SEODescription="Understand the options for persisting add-in state and settings data for content, task pane, and Outlook add-ins." />
 	</Item>
-	<Item text="Privacy and security" url="develop/privacy-and-security" />
-	<Item text="Address same origin policy limitations" url="develop/addressing-same-origin-policy-limitations" />
-	<Item text="Localization" url="develop/localization" />
-    <Item text="Performance" url="develop/resource-limits-and-performance-optimization" />
+	<Item text="Privacy and security" url="develop/privacy-and-security" SEODescription="Office Add-ins are secured by a runtime framework, a multiple-tier permissions model, and the ability to govern use of memory, CPU, and network resources." />
+	<Item text="Address same origin policy limitations" url="develop/addressing-same-origin-policy-limitations" SEODescription="Provides a brief overview of ways to address the same-origin policy limitations that prevent a script loaded from one domain from getting or manipulating properties of a document from another domain in an Office Add-in." />
+	<Item text="Localization" url="develop/localization" SEODescription="Provide locale-specific content for an Office Add-in, including UI strings, add-in name, description, icon, source file, and date/time format." />
+    <Item text="Performance" url="develop/resource-limits-and-performance-optimization" SEODescription="Apply resource usage limits to your Office Add-ins and optimize the performance of your add-in." />
   </Item>
   <Item text="Test" url="testing">
-    <Item text="Use F12 developer tools on Windows 10" url="testing/debug-add-ins-using-f12-developer-tools-on-windows-10" />
-    <Item text="Debug in Office Online" url="testing/debug-add-ins-in-office-online" />
-	<Item text="Sideload Office Add-ins for testing" url="testing/sideload-office-add-ins-for-testing"/>
-	<Item text="Sideload Outlook Add-ins for testing" url="testing/sideload-outlook-add-ins-for-testing"/>
-    <Item text="Sideload on iPad and Mac" url="testing/sideload-an-office-add-in-on-ipad-and-mac" />
-    <Item text="Debug on iPad and Mac" url="testing/debug-office-add-ins-on-ipad-and-mac" />
+    <Item text="Use F12 developer tools on Windows 10" url="testing/debug-add-ins-using-f12-developer-tools-on-windows-10" SEODescription="Use the Debugger from the F12 developer tools on Windows 10 to debug Office add-ins." />
+    <Item text="Debug in Office Online" url="testing/debug-add-ins-in-office-online" SEODescription="Use Office Online to debug add-ins without running Office on the Windows platform - for example, if you're developing on a Mac." />
+	<Item text="Sideload Office Add-ins for testing" url="testing/sideload-office-add-ins-for-testing" SEODescription="See how to load an add-in into an Office application for testing." />
+	<Item text="Sideload Outlook Add-ins for testing" url="testing/sideload-outlook-add-ins-for-testing" SEODescription="" />
+    <Item text="Sideload on iPad and Mac" url="testing/sideload-an-office-add-in-on-ipad-and-mac" SEODescription="Sideload your Office Add-in onto an iPad or Mac to test how it will run in Office for iOS or Office for Mac." />
+    <Item text="Debug on iPad and Mac" url="testing/debug-office-add-ins-on-ipad-and-mac" SEODescription="Debug Office Add-ins running on an iPad or Mac by using the Weinre remote web inspector." />
     
 	</Item>
   <Item text="Publish" url="publish/publish">
-    <Item text="Create a network shared folder catalog for task pane and content add-ins" url="publish/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins"  />
-    <Item text="Host an Office Add-in on Microsoft Azure" url="publish/host-an-office-add-in-on-microsoft-azure" />
-    <Item text="Package your add-in using Napa or Visual Studio" url="publish/package-your-add-in-using-napa-or-visual-studio" />
-    <Item text="Publish task pane and content add-ins to an add-in catalog" url="publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog"   />
-    <Item text="Set up an add in catalog on Office 365" url="publish/set-up-an-add-in-catalog-on-office-365" />
-    <Item text="Set up an add-in catalog on SharePoint" url="publish/set-up-an-add-in-catalog-on-sharepoint" />
-    <Item text="Troubleshoot user errors" url="testing/testing-and-troubleshooting"  />
+    <Item text="Create a network shared folder catalog for task pane and content add-ins" url="publish/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins" SEODescription="" Scope="Excel, Word, PowerPoint, Project, Access" />
+    <Item text="Host an Office Add-in on Microsoft Azure" url="publish/host-an-office-add-in-on-microsoft-azure" SEODescription="Use Visual Studio 2015 and the Microsoft Office Developer Tools to publish to and then host an Office Add-in on Microsoft Azure." />
+    <Item text="Package your add-in using Napa or Visual Studio" url="publish/package-your-add-in-using-napa-or-visual-studio" SEODescription="Package your Office Add-in to prepare it for publishing." />
+    <Item text="Publish task pane and content add-ins to an add-in catalog" url="publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog" SEODescription="Configure Office clients so your add-in is available from the Office Add-ins dialog box"  />
+    <Item text="Set up an add in catalog on Office 365" url="publish/set-up-an-add-in-catalog-on-office-365" SEODescription="Set up an add-in catalog on Office 365 (SharePoint Online) for publishing task pane and content Office Add-ins." Scope="Excel, Word, PowerPoint, Project, Access" />
+    <Item text="Set up an add-in catalog on SharePoint" url="publish/set-up-an-add-in-catalog-on-sharepoint" SEODescription="Set up an add-in catalog on SharePoint for publishing task pane and content add-ins." Scope="Excel, Word, PowerPoint, Project, Access" />
+    <Item text="Troubleshoot user errors" url="testing/testing-and-troubleshooting" SEODescription="Troubleshoot issues your users are having with Office Add-ins."  />
   </Item>
   <Item text="Word" url="word" Scope="word">
     <Item text="Word JavaScript API programming overview" url="word/word-add-ins-programming-overview" SEODescription="Learn about proxy objects" Scope="word" />
@@ -127,7 +126,8 @@
 	<Item text="Use document themes in your PowerPoint add-ins" url="powerpoint/use-document-themes-in-your-powerpoint-add-ins" Scope="powerpoint" />
 	<Item text="Get the whole document from an add-in for PowerPoint or Word" url="develop/get-the-whole-document-from-an-add-in-for-powerpoint-or-word" />   
 	<Item text="Office Mix" url="powerpoint/office-mix" Scope="powerpoint">
-      <Item text="Office Mix add-ins" url="powerpoint/office-mix/office-mix-add-ins"  SEODescription="LabsJS allows you to create specialized Office Mix instances" Scope="powerpoint" /><Item text="Configuring and editing LabsJS labs for Office Mix" url="powerpoint/office-mix/configuring-and-editing-labsjs-labs-for-office-mix" FriendlyUrl="powerpoint/office-mix/configuring-and-editing-labsjs-labs-for-office-mix" SEODescription="Learn how to configure your lab to support viewing and editing." Scope="powerpoint" />
+      <Item text="Office Mix add-ins" url="powerpoint/office-mix/office-mix-add-ins"  SEODescription="LabsJS allows you to create specialized Office Mix instances" Scope="powerpoint" />
+      <Item text="Configuring and editing LabsJS labs for Office Mix" url="powerpoint/office-mix/configuring-and-editing-labsjs-labs-for-office-mix" SEODescription="Learn how to configure your lab to support viewing and editing." Scope="powerpoint" />
       <Item text="Get started with LabsJS for Office Mix" url="powerpoint/office-mix/get-started-with-labsjs-for-office-mix"  SEODescription="Learn how to set up an Office Add-ins development environment to support the development of Microsoft Office Mix Labs using the Labs.js API." Scope="powerpoint" />
 	  <Item text="Walkthrough: Creating your first lab for Office Mix" url="powerpoint/office-mix/creating-your-first-lab-for-office-mix" SEODescription="Create your first lab for Office Mix" Scope="powerpoint" />
       <Item text="Guidelines for creating labs for Mix using LabsJS" url="powerpoint/office-mix/guidelines-for-creating-labs-for-mix-using-labsjs"  SEODescription="Get a concise introduction to using the LabsJS JavaScript library to create Labs for Office Mix." Scope="powerpoint" />

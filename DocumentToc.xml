@@ -31,13 +31,13 @@
 		<Item text="Update API and manifest version" url="develop/update-your-javascript-api-for-office-and-manifest-schema-version" />
 	</Item>	
 	<Item text="Office JavaScript API" url="develop/understanding-the-javascript-api-for-office">
-		<Item text="Support for content and task pane add-ins" url="develop/support-for-content-and-task-pane-add-ins.md" />
+		<Item text="Support for content and task pane add-ins" url="develop/support-for-content-and-task-pane-add-ins" />
 		<Item text="Reference Office.js" url="develop/referencing-the-javascript-api-for-office-library-from-its-cdn" />
 		<Item text="Load Office.js" url="develop/loading-the-dom-and-runtime-environment" />
 		<Item text="Asynchronous programming in Office Add-ins" url="develop/asynchronous-programming-in-office-add-ins" />
 		<Item text="Persist state and settings" url="develop/persisting-add-in-state-and-settings" />
 	</Item>
-	<Item text="Privacy and security" url="develop/privacy-and-security.md" />
+	<Item text="Privacy and security" url="develop/privacy-and-security" />
 	<Item text="Address same origin policy limitations" url="develop/addressing-same-origin-policy-limitations" />
 	<Item text="Localization" url="develop/localization" />
     <Item text="Performance" url="develop/resource-limits-and-performance-optimization" />
@@ -51,7 +51,7 @@
     <Item text="Debug on iPad and Mac" url="testing/debug-office-add-ins-on-ipad-and-mac" />
     
 	</Item>
-  <Item text="Publish" url="publish/publish.md">
+  <Item text="Publish" url="publish/publish">
     <Item text="Create a network shared folder catalog for task pane and content add-ins" url="publish/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins" FriendlyUrl="publishcreate-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins" SEOKeyword="Excel" SEODescription="Word" />
     <Item text="Host an Office Add-in on Microsoft Azure" url="publish/host-an-office-add-in-on-microsoft-azure" />
     <Item text="Package your add-in using Napa or Visual Studio" url="publish/package-your-add-in-using-napa-or-visual-studio" />

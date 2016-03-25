@@ -23,7 +23,8 @@
 	<Item text="Design Office Add-ins for the iPad" url="design/design-office-add-ins-for-the-ipad"  />
   </Item>
   <Item text="Develop" url="develop">
-	<Item text="Add-in development lifecycle" url="design/add-in-development-lifecycle" />
+	<Item text="Add-in development lifecycle" url="develop/add-in-development-lifecycle" />
+	<Item text="Install the latest Office version" url="develop/install-latest-office-version" />
 	<Item text="Manifest" url="overview/add-in-manifests">	
 		<Item text="Specify Office hosts" url="overview/specify-office-hosts-and-api-requirements" /> 	
 		<Item text="Create add-in commands in your manifest (Preview)" url="design/create-add-in-commands-in-your-manifest-preview"    />

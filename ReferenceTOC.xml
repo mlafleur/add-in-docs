@@ -361,7 +361,7 @@
   <Item text="Shared API" url="shared">
     <Item text="JavaScript API for Office" url="javascript-api-for-office" />
 	<Item text="What's changed in the JavaScript API for Office" url="what's-changed-in-the-javascript-api-for-office" />
-	<Item text="Office Add-in Requirement Sets" url="office-add-in-requirement-sets" />
+	<Item text="Office Add-in requirement sets" url="office-add-in-requirement-sets" />
 	<Item text="JavaScript API for Office error codes" url="javascript-api-for-office-error-codes" />
 	<Item text="Enumerations" url="shared/enumerations" FriendlyUrl="reference/enumerationsenumerations">
       <Item text="ActiveView enumeration" url="shared/activeview-enumeration" FriendlyUrl="reference/enumerationsactiveview-enumeration" Scope="powerpoint" />

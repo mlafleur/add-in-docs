@@ -10,9 +10,9 @@
     <Item text="defaultsettings" url="manifest/defaultsettings" SEODescription="Specifies the default source location and other default settings for your content or task pane add-in." />
     <Item text="description" url="manifest/description" SEODescription="Specifies the description of your Office Add-in as a string no longer than 250 characters." />
     <Item text="desktopsettings" url="manifest/desktopsettings" Scope="outlook" SEODescription="Specifies source location and control settings that apply when your mail add-in is used on a desktop computer." />
-    <Item text="dictionary" url="manifest/dictionary" Scope="excel, word, powerpoint, project"SEODescription="Defines settings for a task pane add-in that implements additional dictionary support." />
+    <Item text="dictionary" url="manifest/dictionary" Scope="excel, word, powerpoint, project" SEODescription="Defines settings for a task pane add-in that implements additional dictionary support." />
     <Item text="dictionaryhomepage" url="manifest/dictionaryhomepage" Scope="excel, word, powerpoint, project" SEODescription="Specifies the URL of the home page for the dictionary." />
-    <Item text="dictionaryname" url="manifest/dictionaryname" Scope="excel, word, powerpoint, project"SEODescription="Specifies the name of this dictionary." />
+    <Item text="dictionaryname" url="manifest/dictionaryname" Scope="excel, word, powerpoint, project" SEODescription="Specifies the name of this dictionary." />
     <Item text="disableentityhighlighting" url="manifest/disableentityhighlighting" Scope="outlook" SEODescription="Specifies whether entity highlighting should be turned off for your mail add-in." />
     <Item text="displayname" url="manifest/displayname" SEODescription="Specifies the name for your Office Add-in as a string up to 125 characters long." />
     <Item text="form" url="manifest/form" Scope="outlook" SEODescription="UX settings for the forms that your mail add-in will use when running on a particular device (desktop, tablet, or phone)." />
@@ -30,10 +30,10 @@
     <Item text="phonesettings" url="manifest/phonesettings" SEODescription="Specifies source location and control settings that apply when your mail add-in is used on a phone." />
     <Item text="providername" url="manifest/providername" SEODescription="Specifies the name of the individual or company that developed this Office Add-in as a string of no more than 125 characters." />
     <Item text="queryuri" url="manifest/queryuri" Scope="excel, word, powerpoint, access, project" SEODescription="Specifies the URL of the endpoint for the dictionary query service." />
-    <Item text="requestedheight" url="manifest/requestedheight" Scope="excel, powerpoint, access"SEODescription="Specifies the initial height of a content add-in in pixels, which can be between 32 and 1000." />
+    <Item text="requestedheight" url="manifest/requestedheight" Scope="excel, powerpoint, access" SEODescription="Specifies the initial height of a content add-in in pixels, which can be between 32 and 1000." />
     <Item text="requestedwidth" url="manifest/requestedwidth" Scope="excel, powerpoint, access" SEODescription="Specifies the initial width of a content add-in in pixels, which can be between 32 and 1000." />
     <Item text="requirements" url="manifest/requirements" SEODescription="Specifies the minimum set of JavaScript API for Office requirements (requirement sets and/or methods) that your Office Add-in needs to activate." />
-    <Item text="rule" url="manifest/rule" Scope="outlook"SEODescription="Specifies the activation rule(s) that should be evaluated for this mail add-in." />
+    <Item text="rule" url="manifest/rule" Scope="outlook" SEODescription="Specifies the activation rule(s) that should be evaluated for this mail add-in." />
     <Item text="set" url="manifest/set" SEODescription="Specifies a requirement set from the JavaScript API for Office that your Office Add-in requires to activate." />
     <Item text="sets" url="manifest/sets" SEODescription="Specifies the minimum subset of the JavaScript API for Office that your Office Add-in requires in order to activate." />
     <Item text="sourcelocation" url="manifest/sourcelocation" SEODescription="Specifies the source file location(s) for your Office Add-in as a URL between 1 and 2018 characters long." />

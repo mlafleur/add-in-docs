@@ -55,7 +55,7 @@ You can add multiple event handlers for the specified  _eventType_ as long as th
 
 
 ```js
-function addSelectionChangedEventHandler() {
+function addSettingsChangedEventHandler() {
     Office.context.document.settings.addHandlerAsync(Office.EventType.SettingsChanged, MyHandler);
 }
 

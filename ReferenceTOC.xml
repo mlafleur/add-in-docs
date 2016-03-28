@@ -360,6 +360,24 @@
     <Item text="section" url="word/section" FriendlyUrl="word/referencesection" Scope="word" SEODescription="Represents a section in a Word document." />
     <Item text="sectionCollection" url="word/sectioncollection" FriendlyUrl="word/referencesectioncollection" Scope="word" SEODescription="Contains the collection of the document's section objects." />
   </Item>
+  <Item text="OneNote" url="onenote" Scope="onenote">
+    <Item text="Application" url="onenote/application" SEODescription="" />
+    <Item text="Notebook" url="onenote/notebook" SEODescription="" />
+    <Item text="Notebookcollection" url="onenote/notebookcollection" SEODescription="" />
+    <Item text="Page" url="onenote/page" SEODescription="" />
+    <Item text="Pagecollection" url="onenote/pagecollection" SEODescription="" />
+    <Item text="Pagecontent" url="onenote/pagecontent" SEODescription="" />
+    <Item text="Pagecontentcollection" url="onenote/pagecontentcollection" SEODescription="" />
+    <Item text="Paragraph" url="onenote/paragraph" SEODescription="" />
+    <Item text="Paragraphcollection" url="onenote/paragraphcollection" SEODescription="" />
+    <Item text="Richtext" url="onenote/richtext" SEODescription="" />
+    <Item text="Section" url="onenote/section" SEODescription="" />
+    <Item text="Sectioncollection" url="onenote/sectioncollection" SEODescription="" />
+    <Item text="Sectiongroup" url="onenote/sectiongroup" SEODescription="" />
+    <Item text="Sectiongroupcollection" url="onenote/sectiongroupcollection" SEODescription="" />
+    <Item text="Outline" url="onenote/outline" SEODescription="" />
+    <Item text="Image" url="onenote/image" SEODescription="" />
+  </Item>  
   <Item text="Shared API" url="shared/shared-api">
     <Item text="JavaScript API for Office" url="javascript-api-for-office" SEODescription="" />
 	<Item text="What's changed in the JavaScript API for Office" url="what's-changed-in-the-javascript-api-for-office" SEODescription="" />

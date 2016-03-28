@@ -582,29 +582,29 @@
       <Item text="ViewSelectionChanged event" url="shared/projectdocument.viewselectionchanged.event" FriendlyUrl="reference/common/projectdocumentprojectdocument.viewselectionchanged.event" Scope="project" SEODescription="Occurs when the active view changes in the active project." />
     </Item>
     <Item text="Settings " url="shared/document.settings" Scope="Access, Excel, PowerPoint, Word">
-      <Item text="addHandlerAsync " url="shared/settings.addhandlerasync" FriendlyUrl="reference/common/settingssettings.addhandlerasync" Scope="excel" SEODescription="" />
-      <Item text="get " url="shared/settings.get" FriendlyUrl="reference/common/settingssettings.get"   SEODescription="" />
-      <Item text="refreshAsync " url="shared/settings.refreshasync" FriendlyUrl="reference/common/settingssettings.refreshasync"   SEODescription="" />
-      <Item text="removeHandlerAsync " url="shared/settings.remove" FriendlyUrl="reference/common/settingssettings.remove"   SEODescription="" />
-      <Item text="remove " url="shared/settings.removehandlerasync" FriendlyUrl="reference/common/settingssettings.removehandlerasync" SEODescription="" />
-      <Item text="saveAsync " url="shared/settings.saveasync" FriendlyUrl="reference/common/settingssettings.saveasync"   SEODescription="" />
-      <Item text="set " url="shared/settings.set" FriendlyUrl="reference/common/settingssettings.set"   SEODescription="" />
-      <Item text="settingsChanged event" url="shared/settings.settingschangedevent" FriendlyUrl="reference/common/settings/settingschanged-eventsettings.settingschangedevent" SEODescription="" />
-      <Item text="settings.settingschangedeventargs" url="shared/settings.settingschangedeventargs" SEODescription="" />
-      <Item text="settings " url="shared/settings.settingschangedeventargs.setting" FriendlyUrl="reference/common/settings/settingschanged-event/args/settings.settingschangedeventargs.setting"  SEODescription="" />
-      <Item text="type " url="shared/settings.settingschangedeventargs.type" FriendlyUrl="reference/office.js/settings/settingschanged-event/args/settings.settingschangedeventargs.type" SEODescription="" />
+      <Item text="addHandlerAsync" url="shared/settings.addhandlerasync" FriendlyUrl="reference/common/settingssettings.addhandlerasync" Scope="excel" SEODescription="Adds an event handler for the settingsChanged event." />
+      <Item text="get" url="shared/settings.get" FriendlyUrl="reference/common/settingssettings.get"   SEODescription="Retrieves the specified setting." />
+      <Item text="refreshAsync" url="shared/settings.refreshasync" FriendlyUrl="reference/common/settingssettings.refreshasync"   SEODescription="Reads all settings persisted in the document and refreshes the add-in's copy of those settings held in memory." />
+      <Item text="removeHandlerAsync" url="shared/settings.remove" FriendlyUrl="reference/common/settingssettings.remove"   SEODescription="Removes an event handler for the settingsChanged event." />
+      <Item text="remove" url="shared/settings.removehandlerasync" FriendlyUrl="reference/common/settingssettings.removehandlerasync" SEODescription="Removes the specified setting." />
+      <Item text="saveAsync" url="shared/settings.saveasync" FriendlyUrl="reference/common/settingssettings.saveasync"   SEODescription="" />
+      <Item text="set" url="shared/settings.set" FriendlyUrl="reference/common/settingssettings.set"   SEODescription="Sets or creates the settings." />
+      <Item text="settingsChanged event" url="shared/settings.settingschangedevent" FriendlyUrl="reference/common/settings/settingschanged-eventsettings.settingschangedevent" SEODescription="Occurs when a setting is changed." />
+      <Item text="settings.settingschangedeventargs" url="shared/settings.settingschangedeventargs" SEODescription="Occurs when a setting is changed" />
+      <Item text="settings" url="shared/settings.settingschangedeventargs.setting" FriendlyUrl="reference/common/settings/settingschanged-event/args/settings.settingschangedeventargs.setting"  SEODescription="Specifies the default value for this setting " />
+      <Item text="type" url="shared/settings.settingschangedeventargs.type" FriendlyUrl="reference/office.js/settings/settingschanged-event/args/settings.settingschangedeventargs.type" SEODescription="Specifies the default type for this setting " />
   </Item>
     <Item text="Slice" url="shared/slice" Scope="powerpoint, word">
-    <Item text="data " url="shared/slice.data" SEODescription="" />
-    <Item text="index " url="shared/slice.index" SEODescription="" /> 
-    <Item text="size " url="shared/slice.size" SEODescription="" />
+    <Item text="data" url="shared/slice.data" SEODescription="Gets the raw data of the file slice." />
+    <Item text="index" url="shared/slice.index" SEODescription="Gets the index of the file slice." /> 
+    <Item text="size" url="shared/slice.size" SEODescription="Gets the size of the slice in bytes." />
     </Item>
     <Item text="TableData" url="shared/tabledata" Scope="excel, word" >
-      <Item text="headers " url="shared/tabledata.headers" SEODescription="" /> 
-      <Item text="rows " url="shared/tabledata.rows" SEODescription="" />
+      <Item text="headers" url="shared/tabledata.headers" SEODescription="Gets or sets the headers in the table" /> 
+      <Item text="rows" url="shared/tabledata.rows" SEODescription="Gets or sets the rows in the table." />
     </Item>
-    <Item text="event.completed" url="shared/event.completed" FriendlyUrl="reference/common/officeevent.completed" Scope="outlook" SEODescription="" />
-    <Item text="event.source.id" url="shared/event.source.id" FriendlyUrl="reference/common/officeevent.source.id" Scope="outlook" SEODescription="" />
+    <Item text="event.completed" url="shared/event.completed" FriendlyUrl="reference/common/officeevent.completed" Scope="outlook" SEODescription="The callback that the add-in invokes to let Outlook know that the operation is done." />
+    <Item text="event.source.id" url="shared/event.source.id" FriendlyUrl="reference/common/officeevent.source.id" Scope="outlook" SEODescription="Gets the id of the control that triggered calling this function." />
   </Item>
   
 </Menu>

@@ -404,26 +404,25 @@
       <Item text="ValueFormat enumeration" url="shared/valueformat-enumeration" Scope="Excel, Project, Word" SEODescription="Specifies whether values, such as numbers and dates, returned by the invoked method are returned with their formatting applied." />
       </Item>
     <Item text="AsyncResult" url="shared/asyncresult" >
-      <Item text="AsyncResult.asyncContext" url="shared/asyncresult.asynccontext" SEODescription="" />
-      <Item text="AsyncResult.context" url="shared/asyncresult.context" SEODescription="" />
-      <Item text="AsyncResult.error" url="shared/asyncresult.error" SEODescription="" />
-      <Item text="AsyncResult.status" url="shared/asyncresult.status" SEODescription="" />
-      <Item text="AsyncResult.value" url="shared/asyncresult.value" SEODescription="" />
+      <Item text="AsyncResult.asyncContext" url="shared/asyncresult.asynccontext" SEODescription="Asynchronously gets the text of an XML node in a custom XML part." />
+      <Item text="AsyncResult.context" url="shared/asyncresult.context" SEODescription="Represents the runtime environment of the add-in and provides access to key objects of the API." />
+      <Item text="AsyncResult.error" url="shared/asyncresult.error" SEODescription="Gets an Error object that provides a description of the error, if any error occurred." />
+      <Item text="AsyncResult.status" url="shared/asyncresult.status" SEODescription="Gets the status of the asynchronous operation." />
+      <Item text="AsyncResult.value" url="shared/asyncresult.value" SEODescription="Gets the payload or content of this asynchronous operation, if any." />
     </Item>
     <Item text="Context " url="shared/office.context" FriendlyUrl="reference/common/officeoffice.context" >
-      <Item text="office.context.commerceAllowed " url="shared/office.context.commerceallowed" FriendlyUrl="reference/common/contextoffice.context.commerceallowed"  SEODescription="" />
-      <Item text="office.context.contentLanguage" url="shared/office.context.contentlanguage" SEODescription="" />
-      <Item text="office.context.displaylanguage" url="shared/office.context.displaylanguage" SEODescription="" />
-      <Item text="touchEnabled " url="shared/office.context.touchenabled" FriendlyUrl="reference/common/contextoffice.context.touchenabled"  SEODescription="" />
-      <Item text="office.context.officetheme" url="shared/office.context.officetheme" SEODescription="" />
-    
-      <Item text="bodyBackgroundColor " url="shared/office.context.bodybackgroundcolor" FriendlyUrl="reference/common/contextoffice.context.bodybackgroundcolor" SEOKeyword="OL" SEODescription="PP" SEODescription="" />
-      <Item text="bodyForegroundColor " url="shared/office.context.bodyforegroundcolor" FriendlyUrl="reference/common/contextoffice.context.bodyforegroundcolor" SEOKeyword="OL" SEODescription="PP" SEODescription="" />
-     <Item text="office.context.controlbackgroundcolor" url="shared/office.context.controlbackgroundcolor" SEODescription="" />
-      <Item text="office.context.controlforegroundcolor" url="shared/office.context.controlforegroundcolor" SEODescription="" />
-      <Item text="office.context.document" url="shared/office.context.document" SEODescription="" />
-      <Item text="office.context.mailbox" url="shared/office.context.mailbox" SEODescription="" />
-      <Item text="office.context.roamingsettings" url="shared/office.context.roamingsettings" SEODescription="" />
+      <Item text="office.context.commerceAllowed " url="shared/office.context.commerceallowed" FriendlyUrl="reference/common/contextoffice.context.commerceallowed"  SEODescription="Gets whether the add-in is running on a platform that allows links to external payment systems." />
+      <Item text="office.context.contentLanguage" url="shared/office.context.contentlanguage" SEODescription="Gets the locale (language) specified by the user for editing the document or item." />
+      <Item text="office.context.displaylanguage" url="shared/office.context.displaylanguage" SEODescription="Gets the locale (language) specified by the user for the UI of the Office host application." />
+      <Item text="office.context.touchEnabled" url="shared/office.context.touchenabled" FriendlyUrl="reference/common/contextoffice.context.touchenabled"  SEODescription="Gets whether the add-in is running in an Office host application that is touch enabled." />
+      <Item text="office.context.officetheme" url="shared/office.context.officetheme" SEODescription="Provides access to the properties for Office theme colors." />
+      <Item text="office.context.bodyBackgroundColor" url="shared/office.context.bodybackgroundcolor" FriendlyUrl="reference/common/contextoffice.context.bodybackgroundcolor" SEOKeyword="OL" SEODescription="PP" SEODescription="Gets the Office theme body background color" />
+      <Item text="office.context.bodyForegroundColor" url="shared/office.context.bodyforegroundcolor" FriendlyUrl="reference/common/contextoffice.context.bodyforegroundcolor" SEOKeyword="OL" SEODescription="PP" SEODescription="Gets the Office theme body foreground color." />
+      <Item text="office.context.controlbackgroundcolor" url="shared/office.context.controlbackgroundcolor" SEODescription="Gets the Office theme control background color." />
+      <Item text="office.context.controlforegroundcolor" url="shared/office.context.controlforegroundcolor" SEODescription="Gets the Office theme control foreground color." />
+      <Item text="office.context.document" url="shared/office.context.document" SEODescription="Gets an object that represents the document the add-in in interacting with." />
+      <Item text="office.context.mailbox" url="shared/office.context.mailbox" SEODescription="Gets the mailbox object that provides access to API members specifically for Outlook add-ins." />
+      <Item text="office.context.roamingsettings" url="shared/office.context.roamingsettings" SEODescription="Gets an object that represents the custom settings or state of a Outlook add-in saved to a user's mailbox." />
     </Item>
     <Item text="Binding" url="shared/binding" Scope="access, excel, word">
 	    <Item text="Binding.addHandlerAsync" url="shared/binding.addhandlerasync" SEODescription="" />

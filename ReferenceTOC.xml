@@ -44,54 +44,54 @@
     <Item text="version" url="manifest/version" SEODescription="Specifies the version of your Office Add-in." />
   </Item>
   <Item text="Excel" url="excel" Scope="excel">
-    <Item text="Application" url="excel/application" SEODescription="" />
-    <Item text="Binding" url="excel/binding" SEODescription="" />
-    <Item text="BindingCollection" url="excel/bindingcollection" SEODescription="" />
-    <Item text="Chart" url="excel/chart" SEODescription="" />
-    <Item text="ChartAreaFormat" url="excel/chartareaformat" SEODescription="" />
-    <Item text="ChartAxes" url="excel/chartaxes" SEODescription="" />
-    <Item text="ChartAxis" url="excel/chartaxis" SEODescription="" />
-    <Item text="ChartAxisFormat" url="excel/chartaxisformat" SEODescription="" />
-    <Item text="ChartAxisTitle" url="excel/chartaxistitle" SEODescription="" />
-    <Item text="ChartAxisTitleFormat" url="excel/chartaxistitleformat" SEODescription="" />
-    <Item text="ChartCollection" url="excel/chartcollection" SEODescription="" />
-    <Item text="ChartDataLabelFormat" url="excel/chartdatalabelformat" SEODescription="" />
-    <Item text="ChartDataLabels" url="excel/chartdatalabels" SEODescription="" />
-    <Item text="ChartFill" url="excel/chartfill" SEODescription="" />
-    <Item text="ChartFont" url="excel/chartfont" SEODescription="" />
-    <Item text="ChartGridlines" url="excel/chartgridlines" SEODescription="" />
-    <Item text="ChartGridlinesFormat" url="excel/chartgridlinesformat" SEODescription="" />
-    <Item text="ChartLegend" url="excel/chartlegend" SEODescription="" />
-    <Item text="ChartLegendFormat" url="excel/chartlegendformat" SEODescription="" />
-    <Item text="ChartLineFormat" url="excel/chartlineformat" SEODescription="" />
-    <Item text="ChartPoint" url="excel/chartpoint" SEODescription="" />
-    <Item text="ChartPointFormat" url="excel/chartpointformat" SEODescription="" />
-    <Item text="ChartPointsCollection" url="excel/chartpointscollection" SEODescription="" />
-    <Item text="ChartSeries" url="excel/chartseries" SEODescription="" />
-    <Item text="ChartSeriesCollection" url="excel/chartseriescollection" SEODescription="" />
-    <Item text="ChartSeriesFormat" url="excel/chartseriesformat" SEODescription="" />
-    <Item text="ChartTitle" url="excel/charttitle" SEODescription="" />
-    <Item text="ChartTitleformat" url="excel/charttitleFormat" SEODescription="" />
-    <Item text="LoadOption" url="excel/loadoption" SEODescription="" />
-    <Item text="NamedItem" url="excel/nameditem" SEODescription="" />
-    <Item text="NamedItemCollection" url="excel/nameditemcollection" SEODescription="" />
-    <Item text="Range" url="excel/range" SEODescription="" />
-    <Item text="RangeBorder" url="excel/rangeborder" SEODescription="" />
-    <Item text="RangeBorderCollection" url="excel/rangebordercollection" SEODescription="" />
-    <Item text="RangeFill" url="excel/rangefill" SEODescription="" />
-    <Item text="RangeFont" url="excel/rangefont" SEODescription="" />
-    <Item text="RangeFormat" url="excel/rangeformat" SEODescription="" />
-    <Item text="Requestcontext" url="excel/requestcontext" SEODescription="" />
-    <Item text="Table" url="excel/table" SEODescription="" />
-    <Item text="TableCollection" url="excel/tablecollection" SEODescription="" />
-    <Item text="TableColumn" url="excel/tablecolumn" SEODescription="" />
-    <Item text="TableColumnCollection" url="excel/tablecolumncollection" SEODescription="" />
-    <Item text="TableRow" url="excel/tablerow" SEODescription="" />
-    <Item text="TableRowCollection" url="excel/tablerowCollection" SEODescription="" />
-    <Item text="TrackedObjectsCollection" url="excel/trackedobjectscollection" SEODescription="" />
-    <Item text="Workbook" url="excel/workbook" SEODescription="" />
-    <Item text="Worksheet" url="excel/worksheet" SEODescription="" />
-    <Item text="WorksheetCollection" url="excel/worksheetcollection" SEODescription="" />
+    <Item text="Application" url="excel/application" SEODescription="Represents the Excel application that manages the workbook." />
+    <Item text="Binding" url="excel/binding" SEODescription="Represents an Office.js binding that is defined in the workbook." />
+    <Item text="BindingCollection" url="excel/bindingcollection" SEODescription="Represents the collection of all the binding objects that are part of the workbook." />
+    <Item text="Chart" url="excel/chart" SEODescription="Represents a chart object in a workbook." />
+    <Item text="ChartAreaFormat" url="excel/chartareaformat" SEODescription="Encapsulates the format properties for the overall chart area." />
+    <Item text="ChartAxes" url="excel/chartaxes" SEODescription="Represents the chart axes." />
+    <Item text="ChartAxis" url="excel/chartaxis" SEODescription="Represents a single axis in a chart." />
+    <Item text="ChartAxisFormat" url="excel/chartaxisformat" SEODescription="Encapsulates the format properties for the chart axis." />
+    <Item text="ChartAxisTitle" url="excel/chartaxistitle" SEODescription="Represents the title of a chart axis." />
+    <Item text="ChartAxisTitleFormat" url="excel/chartaxistitleformat" SEODescription="Represents the chart axis title formatting." />
+    <Item text="ChartCollection" url="excel/chartcollection" SEODescription="A collection of all the chart objects on a worksheet." />
+    <Item text="ChartDataLabelFormat" url="excel/chartdatalabelformat" SEODescription="Encapsulates the format properties for the chart data labels." />
+    <Item text="ChartDataLabels" url="excel/chartdatalabels" SEODescription="Represents a collection of all the data labels on a chart point." />
+    <Item text="ChartFill" url="excel/chartfill" SEODescription="Represents the fill formatting for a chart element." />
+    <Item text="ChartFont" url="excel/chartfont" SEODescription="This object represents the font attributes (font name, font size, color, etc.) for a chart object." />
+    <Item text="ChartGridlines" url="excel/chartgridlines" SEODescription="Represents major or minor gridlines on a chart axis." />
+    <Item text="ChartGridlinesFormat" url="excel/chartgridlinesformat" SEODescription="Encapsulates the format properties for chart gridlines." />
+    <Item text="ChartLegend" url="excel/chartlegend" SEODescription="Represents the legend in a chart." />
+    <Item text="ChartLegendFormat" url="excel/chartlegendformat" SEODescription="Encapsulates the format properties of a chart legend." />
+    <Item text="ChartLineFormat" url="excel/chartlineformat" SEODescription="Enapsulates the formatting options for line elements." />
+    <Item text="ChartPoint" url="excel/chartpoint" SEODescription="Enapsulates the formatting options for line elements." />
+    <Item text="ChartPointFormat" url="excel/chartpointformat" SEODescription="Represents a point of a series in a chart." />
+    <Item text="ChartPointsCollection" url="excel/chartpointscollection" SEODescription="Represents formatting object for chart points." />
+    <Item text="ChartSeries" url="excel/chartseries" SEODescription="A collection of all the chart points within a series inside a chart." />
+    <Item text="ChartSeriesCollection" url="excel/chartseriescollection" SEODescription="Encapsulates the format properties for the chart series." />
+    <Item text="ChartSeriesFormat" url="excel/chartseriesformat" SEODescription="Encapsulates the format properties for the chart series." />
+    <Item text="ChartTitle" url="excel/charttitle" SEODescription="Represents a chart title object of a chart." />
+    <Item text="ChartTitleformat" url="excel/charttitleFormat" SEODescription="Provides access to the Office art formatting for the chart title." />
+    <Item text="LoadOption" url="excel/loadoption" SEODescription="Represents an object that can be passed to the load method to specify the set of properties and relations to be loaded upon execution of sync() method that synchronizes the states between Excel objects and corresponding JavaScript proxy objects in the add-in. " />
+    <Item text="NamedItem" url="excel/nameditem" SEODescription="Represents a defined name for a range of cells or a value. " />
+    <Item text="NamedItemCollection" url="excel/nameditemcollection" SEODescription="A collection of all the nameditem objects that are part of the workbook." />
+    <Item text="Range" url="excel/range" SEODescription="Range represents a set of one or more contiguous cells such as a cell, a row, a column, block of cells, etc." />
+    <Item text="RangeBorder" url="excel/rangeborder" SEODescription="Represents the border of an object." />
+    <Item text="RangeBorderCollection" url="excel/rangebordercollection" SEODescription="Represents the border objects that make up range border." />
+    <Item text="RangeFill" url="excel/rangefill" SEODescription="Represents the background of a range object." />
+    <Item text="RangeFont" url="excel/rangefont" SEODescription="This object represents the font attributes (font name, font size, color, etc.) for an object." />
+    <Item text="RangeFormat" url="excel/rangeformat" SEODescription="A format object encapsulating the range's font, fill, borders, alignment, and other properties." />
+    <Item text="Requestcontext" url="excel/requestcontext" SEODescription="The RequestContext object facilitates requests to the Excel application. " />
+    <Item text="Table" url="excel/table" SEODescription="Represents an Excel table." />
+    <Item text="TableCollection" url="excel/tablecollection" SEODescription="Represents a collection of all the tables that are part of the workbook." />
+    <Item text="TableColumn" url="excel/tablecolumn" SEODescription="Represents a column in a table." />
+    <Item text="TableColumnCollection" url="excel/tablecolumncollection" SEODescription="Represents a collection of all the columns that are part of the table." />
+    <Item text="TableRow" url="excel/tablerow" SEODescription="Represents a row in a table." />
+    <Item text="TableRowCollection" url="excel/tablerowCollection" SEODescription="Represents a collection of all the rows that are part of the table." />
+    <Item text="TrackedObjectsCollection" url="excel/trackedobjectscollection" SEODescription="Allows add-ins to manage range object references across sync() batches." />
+    <Item text="Workbook" url="excel/workbook" SEODescription="Workbook is the top-level object that contains related workbook objects such as worksheets, tables, ranges, etc." />
+    <Item text="Worksheet" url="excel/worksheet" SEODescription="An Excel worksheet is a grid of cells. It can contain data, tables, charts, etc." />
+    <Item text="WorksheetCollection" url="excel/worksheetcollection" SEODescription="Represents a collection of worksheet objects that are part of the workbook." />
   </Item>
   <Item text="Outlook" url="outlook" Scope="Outlook">
 		<Item text="1.1" url="outlook/1.1/index" Version="V1.1">
@@ -151,8 +151,7 @@
 		    <Item text="Subject" url="outlook/1.2/Subject" Version="V1.2" SEODescription="" />
 		    <Item text="Time" url="outlook/1.2/Time" Version="V1.2" SEODescription="" />
 		  </Item>
-		  <Item text="Simple Types" url="outlook/1.2/simple-types" Version="V1.2" SEODescription="" />
-        <!--
+		  <Item text="Simple Types" url="outlook/1.2/simple-types" Version="V1.2" SEODescription="Represents the simple types of the Mailbox API." />
         <Item text="AsyncResult" url="outlook/simple-types#asyncresult" Version="V1.2" SEODescription="" />
         <Item text="AttachmentDetails" url="outlook/simple-types#attachmentdetails" Version="V1.2" SEODescription="" />
         <Item text="Contact" url="outlook/simple-types#contact" Version="V1.2" SEODescription="" />
@@ -163,9 +162,7 @@
         <Item text="MeetingSuggestion" url="outlook/simple-types#contact" Version="V1.2" SEODescription="" />
         <Item text="PhoneNumber" url="outlook/simple-types#phonenumber" Version="V1.2" SEODescription="" />
         <Item text="TaskSuggestion" url="outlook/simple-types#tasksuggestion" Version="V1.2" SEODescription="" />
-        -->
-      <Item text="Enumerations" url="outlook/1.2/Office.MailboxEnums" Version="V1.2" SEODescription="" />  
-        <!--
+      <Item text="Enumerations" url="outlook/1.2/Office.MailboxEnums" Version="V1.2" SEODescription="Represents the enumerations of the Mailbox API." />  
         <Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.2" SEODescription="" />
         <Item text="Office.CoercionType" url="outlook/Office#coerciontype-string" Version="V1.2" SEODescription="" />
         <Item text="Office.MailboxEnums.AttachmentType" url="outlook/Office.MailboxEnums#attachmenttype-string" Version="V1.2" SEODescription="" />
@@ -174,30 +171,32 @@
         <Item text="Office.MailboxEnums.RecipientType" url="outlook/Office.MailboxEnums#recipienttype-string" Version="V1.2" SEODescription="" />
         <Item text="Office.MailboxEnums.ResponseType" url="outlook/Office.MailboxEnums#responsetype-string" Version="V1.2" SEODescription="" />
         <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.2" SEODescription="" /> 
-     </Item> -->
+     </Item>
     </Item>
     
     <!-- V1.3 or latest. This doesn't have a url with the version number-->
 		<Item text="Object Models" url="outlook" Version="V1.3">
-		<Item text="Office" url="outlook/Office" Version="V1.3" SEODescription="" />
-		<Item text="Office.context" url="outlook/Office.context" Version="V1.3" SEODescription="" />
-		  <Item text="Office.context.mailbox.diagnostics" url="outlook/Office.context.mailbox.diagnostics" Version="V1.3" SEODescription="" />
-		  <Item text="Office.context.mailbox" url="outlook/Office.context.mailbox" Version="V1.3" SEODescription="" />
-		  <Item text="Office.context.mailbox.item" url="outlook/Office.context.mailbox.item" Version="V1.3" SEODescription="" />
-		  <Item text="Office.context.mailbox.userProfile" url="outlook/Office.context.mailbox.userProfile" Version="V1.3" SEODescription="" />
+		<Item text="Office" url="outlook/Office" Version="V1.3" SEODescription="The Office namespace provides shared interfaces that are used by add-ins in all of the Office apps." />
+		<Item text="Office.context" url="outlook/Office.context" Version="V1.3" SEODescription="The Office.context namespace provides shared interfaces that are used by add-ins in all of the Office apps." />
+		  <Item text="Office.context.mailbox.diagnostics" url="outlook/Office.context.mailbox.diagnostics" Version="V1.3" SEODescription="Provides diagnostic information to an Outlook add-in." />
+		  <Item text="Office.context.mailbox" url="outlook/Office.context.mailbox" Version="V1.3" SEODescription="Provides access to the Outlook Add-in object model for Microsoft Outlook and Microsoft Outlook on the web." />
+		  <Item text="Office.context.mailbox.item" url="outlook/Office.context.mailbox.item" Version="V1.3" SEODescription="The item namespace is used to access the currently selected message, meeting request, or appointment. You can determine the type of the item by using the itemType property." />
+		  <Item text="Office.context.mailbox.userProfile" url="outlook/Office.context.mailbox.userProfile" Version="V1.3" SEODescription="Provides access to the user's mailbox profile." />
 			</Item>
 		<Item text="Complex Types" url="outlook"  Version="V1.3">
-		  <Item text="Body" url="outlook/Body" Version="V1.3" SEODescription="" />
-		  <Item text="CustomProperties" url="outlook/CustomProperties" Version="V1.3" SEODescription="" />
-			<Item text="Event" url="outlook/Event" Version="V1.3" SEODescription="" />	
-			<Item text="Location" url="outlook/Location" Version="V1.3" SEODescription="" />
-			<Item text="NotificationMessages" url="outlook/NotificationMessages" Version="V1.3" SEODescription="" />	
-			<Item text="Recipients" url="outlook/Recipients" Version="V1.3" SEODescription="" />
-		  <Item text="RoamingSettings" url="outlook/RoamingSettings" Version="V1.3" SEODescription="" />
-		  <Item text="Subject" url="outlook/Subject" Version="V1.3" SEODescription="" />
-		  <Item text="Time" url="outlook/Time" Version="V1.3" SEODescription="" />
+		  <Item text="Body" url="outlook/Body" Version="V1.3" SEODescription="The body object provides methods for adding and updating the content of the message or appointment." />
+		  <Item text="CustomProperties" url="outlook/CustomProperties" Version="V1.3" SEODescription="The CustomProperties object represents custom properties that are specific to a particular item and specific to a mail add-in for Outlook." />
+			<Item text="Event" url="outlook/Event" Version="V1.3" SEODescription="The event object is passed as a parameter to add-in functions invoked by UI-less command buttons." />	
+			<Item text="Location" url="outlook/Location" Version="V1.3" SEODescription="Provides methods to get and set the location of a meeting in an Outlook add-in." />
+			<Item text="NotificationMessages" url="outlook/NotificationMessages" Version="V1.3" SEODescription="The NotificationMessages object is returned as the notificationMessages property of an item." />	
+			<Item text="Recipients" url="outlook/Recipients" Version="V1.3" SEODescription="Information about the recipients of the mail." />
+		  <Item text="RoamingSettings" url="outlook/RoamingSettings" Version="V1.3" SEODescription="The settings created by using the methods of the RoamingSettings object are saved per add-in and per user. " />
+		  <Item text="Subject" url="outlook/Subject" Version="V1.3" SEODescription="Provides methods to get and set the subject of an appointment or message in an Outlook add-in." />
+		  <Item text="Time" url="outlook/Time" Version="V1.3" SEODescription="The Time object is returned as the start or end property of an appointment in compose mode." />
 		</Item>
 		<Item text="Simple Types" url="outlook/simple-types" Version="V1.3">
+      
+      <!--
         <Item text="AsyncResult" url="outlook/simple-types#asyncresult" Version="V1.3" SEODescription="" />
         <Item text="AttachmentDetails" url="outlook/simple-types#attachmentdetails" Version="V1.3" SEODescription="" />
         <Item text="Contact" url="outlook/simple-types#contact" Version="V1.3" SEODescription="" />
@@ -209,8 +208,10 @@
         <Item text="NotificationMessageDetails" url="outlook/simple-types#meetingsuggestion" Version="V1.3" SEODescription="" />
         <Item text="PhoneNumber" url="outlook/simple-types#phonenumber" Version="V1.3" SEODescription="" />
         <Item text="TaskSuggestion" url="outlook/simple-types#tasksuggestion" Version="V1.3" SEODescription="" />
+        -->
     </Item>
 		<Item text="Enumerations" url="outlook/Office.MailboxEnums" Version="V1.3">  
+      <!--
       <Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.3" SEODescription="" />
       <Item text="Office.CoercionType" url="outlook/Office#coerciontype-string" Version="V1.3" SEODescription="" />
       <Item text="Office.MailboxEnums.AttachmentType" url="outlook/Office.MailboxEnums#attachmenttype-string" Version="V1.3" SEODescription="" />
@@ -220,6 +221,7 @@
       <Item text="Office.MailboxEnums.RecipientType" url="outlook/Office.MailboxEnums#recipienttype-string" Version="V1.3" SEODescription="" />
       <Item text="Office.MailboxEnums.ResponseType" url="outlook/Office.MailboxEnums#responsetype-string" Version="V1.3" SEODescription="" />
       <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.3" SEODescription="" />
+        -->
     </Item>
     <Item text="Understanding API requirement sets" url="outlook/tutorial-api-requirement-sets" Version="V1.3" SEODescription="" />
   </Item>

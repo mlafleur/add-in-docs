@@ -457,12 +457,12 @@
         <Item text="addColumnsAsync" url="shared/binding.tablebinding.addcolumnsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.addcolumnsasync"  SEODescription="Adds columns and values to a table." />
         <Item text="addRowsAsync" url="shared/binding.tablebinding.addrowsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.addrowsasync"   SEODescription="Adds rows and values to a table." />
         <Item text="clearFormatsAsync" url="shared/binding.tablebinding.clearformatsasync" SEODescription="Clears formatting on the bound table." />
-        <Item text="columnCount" url="shared/binding.tablebinding.columncount" SEODescription="" />
-        <Item text="deleteAllDataValuesAsync" url="shared/binding.tablebinding.deletealldatavaluesasync" SEODescription="" />
-        <Item text="hasHeaders" url="shared/binding.tablebinding.hasheaders" SEODescription="" />
-        <Item text="rowCount" url="shared/binding.tablebinding.rowcount" SEODescription="" />
-        <Item text="setFormatsAsync " url="shared/binding.tablebinding.setformatsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.setformatsasync" SEODescription="Sets or updates formatting on specified items and data in the bound table." Scope="excel" SEODescription="" />
-        <Item text="setTableOptionsAsync " url="shared/binding.tablebinding.settableoptionsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.settableoptionsasync" SEODescription="Updates table formatting options on the bound table." Scope="excel" SEODescription="" />
+        <Item text="columnCount" url="shared/binding.tablebinding.columncount" SEODescription="Gets the number of columns in the matrix data structure, as an integer value." />
+        <Item text="deleteAllDataValuesAsync" url="shared/binding.tablebinding.deletealldatavaluesasync" SEODescription="Deletes all non-header rows and their values in the table, shifting appropriately for the host application." />
+        <Item text="hasHeaders" url="shared/binding.tablebinding.hasheaders" SEODescription="Gets whether the table has headers." />
+        <Item text="rowCount" url="shared/binding.tablebinding.rowcount" SEODescription="Gets the number of rows in the table, as an integer value." />
+        <Item text="setFormatsAsync" url="shared/binding.tablebinding.setformatsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.setformatsasync" SEODescription="Sets or updates formatting on specified items and data in the bound table." Scope="excel" SEODescription="Sets or updates formatting on specified items and data in the bound table." />
+        <Item text="setTableOptionsAsync" url="shared/binding.tablebinding.settableoptionsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.settableoptionsasync" SEODescription="Updates table formatting options on the bound table." Scope="excel" SEODescription="Updates table formatting options on the bound table." />
       </Item>
       <Item text="TextBinding" url="shared/binding.textbinding" SEODescription="" />
     </Item>

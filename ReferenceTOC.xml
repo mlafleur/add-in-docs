@@ -379,29 +379,29 @@
     <Item text="Image" url="onenote/image" SEODescription="" />
   </Item>  
   <Item text="Shared API" url="shared/shared-api">
-    <Item text="JavaScript API for Office" url="javascript-api-for-office" SEODescription="" />
-	<Item text="What's changed in the JavaScript API for Office" url="what's-changed-in-the-javascript-api-for-office" SEODescription="" />
-	<Item text="Office Add-in Requirement Sets" url="office-add-in-requirement-sets" SEODescription="" />
-	<Item text="JavaScript API for Office error codes" url="javascript-api-for-office-error-codes" SEODescription="" />
+    <Item text="JavaScript API for Office" url="javascript-api-for-office" SEODescription="The JavaScript API for Office includes objects, methods, properties, events, and enumerations that you can use in your Office Add-ins code." />
+	<Item text="What's changed in the JavaScript API for Office" url="what's-changed-in-the-javascript-api-for-office" SEODescription="The JavaScript API for Office is periodically updated with new and updated objects, methods, properties, events and enumerations to extend the functionality of your Office Add-ins." />
+	<Item text="Office Add-in Requirement Sets" url="office-add-in-requirement-sets" SEODescription="Requirement sets are named groups of API members. Office add-ins use requirement sets specified in the manifest or using a runtime check to determine if an Office host supports APIs needed by the add-in." />
+	<Item text="JavaScript API for Office error codes" url="javascript-api-for-office-error-codes" SEODescription="The error messages you might encounter while using the JavaScript API for Office (Office.js)." />
 	<Item text="Enumerations" url="shared/enumerations" FriendlyUrl="reference/enumerationsenumerations">
-      <Item text="ActiveView enumeration" url="shared/activeview-enumeration" FriendlyUrl="reference/enumerationsactiveview-enumeration" Scope="powerpoint" SEODescription="" />
-      <Item text="AsyncResultStatus enumeration" url="shared/asyncresultstatus-enumeration" FriendlyUrl="reference/enumerationsasyncresultstatus-enumeration" Scope="Access, Excel, Word" SEODescription="" />
-      <Item text="BindingType enumeration" url="shared/bindingtype-enumeration" FriendlyUrl="reference/enumerationsbindingtype-enumeration" Scope="Access, Excel, Word" SEODescription="" />
-      <Item text="CoercionType enumeration" url="shared/coerciontype-enumeration" FriendlyUrl="reference/enumerationscoerciontype-enumeration" SEODescription="" />
-      <Item text="CustomXMLNodeType enumeration" url="shared/customxmlnodetype-enumeration" FriendlyUrl="reference/enumerationscustomxmlnodetype-enumeration" Scope="Word" SEODescription="" />
-      <Item text="DocumentMode enumeration" url="shared/documentmode-enumeration" FriendlyUrl="reference/enumerationsdocumentmode-enumeration"  Scope="Excel, PowerPoint, Project, Word" SEODescription="" />
-      <Item text="EventType enumeration" url="shared/eventtype-enumeration" FriendlyUrl="reference/enumerationseventtype-enumeration" Scope="Excel, PowerPoint, Project, Word"   SEODescription="" />
-      <Item text="FileType enumeration" url="shared/filetype-enumeration" FriendlyUrl="reference/enumerationsfiletype-enumeration"  Scope="PowerPoint, Word" SEODescription="" />
-      <Item text="FilterType enumeration" url="shared/filtertype-enumeration" FriendlyUrl="reference/enumerationsfiltertype-enumeration" Scope="Excel, Project, Word" SEODescription="" />
-      <Item text="GoToType enumeration" url="shared/gototype-enumeration" FriendlyUrl="reference/enumerationsgototype-enumeration" Scope="Excel, PowerPoint, Word"  SEODescription="" />
-      <Item text="InitializationReason enumeration" url="shared/initializationreason-enumeration" FriendlyUrl="reference/enumerationsinitializationreason-enumeration" Scope="Excel, Project, Word"  SEODescription="" />
-      <Item text="ProjectProjectFields enumeration" url="shared/projectprojectfields-enumeration" FriendlyUrl="reference/enumerationsprojectprojectfields-enumeration" Scope="project" SEODescription="" />
-      <Item text="ProjectResourceFields enumeration" url="shared/projectresourcefields-enumeration" FriendlyUrl="reference/enumerationsprojectresourcefields-enumeration" Scope="project" SEODescription="" />
-      <Item text="ProjectTaskFields enumeration" url="shared/projecttaskfields-enumeration" FriendlyUrl="reference/enumerationsprojecttaskfields-enumeration" Scope="project" SEODescription="" />
-      <Item text="ProjectViewTypes enumeration" url="shared/projectviewtypes-enumeration" FriendlyUrl="reference/enumerationsprojectviewtypes-enumeration" Scope="project" SEODescription="" />
-      <Item text="SelectionMode enumeration" url="shared/selectionmode-enumeration" FriendlyUrl="reference/enumerationsselectionmode-enumeration" Scope="project" SEODescription="" />
-      <Item text="Table enumeration" url="shared/table-enumeration" Scope="excel" SEODescription="" />
-      <Item text="ValueFormat enumeration" url="shared/valueformat-enumeration" Scope="Excel, Project, Word" SEODescription="" />
+      <Item text="ActiveView enumeration" url="shared/activeview-enumeration" FriendlyUrl="reference/enumerationsactiveview-enumeration" Scope="powerpoint" SEODescription="Specifies the state of the active view of the document, for example, whether the user can edit the document." />
+      <Item text="AsyncResultStatus enumeration" url="shared/asyncresultstatus-enumeration" FriendlyUrl="reference/enumerationsasyncresultstatus-enumeration" Scope="Access, Excel, Word" SEODescription="Specifies the result of an asynchronous call." />
+      <Item text="BindingType enumeration" url="shared/bindingtype-enumeration" FriendlyUrl="reference/enumerationsbindingtype-enumeration" Scope="Access, Excel, Word" SEODescription="Specifies the type of the binding object that should be returned." />
+      <Item text="CoercionType enumeration" url="shared/coerciontype-enumeration" FriendlyUrl="reference/enumerationscoerciontype-enumeration" SEODescription="Specifies how to coerce data returned or set by the invoked method." />
+      <Item text="CustomXMLNodeType enumeration" url="shared/customxmlnodetype-enumeration" FriendlyUrl="reference/enumerationscustomxmlnodetype-enumeration" Scope="Word" SEODescription="Specifies the node type." />
+      <Item text="DocumentMode enumeration" url="shared/documentmode-enumeration" FriendlyUrl="reference/enumerationsdocumentmode-enumeration"  Scope="Excel, PowerPoint, Project, Word" SEODescription="Specifies whether the document in the associated application is read-only or read-write." />
+      <Item text="EventType enumeration" url="shared/eventtype-enumeration" FriendlyUrl="reference/enumerationseventtype-enumeration" Scope="Excel, PowerPoint, Project, Word"   SEODescription="Specifies the kind of event that was raised. Returned by the type property of an EventNameEventArgs object." />
+      <Item text="FileType enumeration" url="shared/filetype-enumeration" FriendlyUrl="reference/enumerationsfiletype-enumeration"  Scope="PowerPoint, Word" SEODescription="Specifies the format in which to return the document." />
+      <Item text="FilterType enumeration" url="shared/filtertype-enumeration" FriendlyUrl="reference/enumerationsfiltertype-enumeration" Scope="Excel, Project, Word" SEODescription="Specifies whether filtering from the host application is applied when the data is retrieved." />
+      <Item text="GoToType enumeration" url="shared/gototype-enumeration" FriendlyUrl="reference/enumerationsgototype-enumeration" Scope="Excel, PowerPoint, Word"  SEODescription="Specifies the type of place or object to navigate to." />
+      <Item text="InitializationReason enumeration" url="shared/initializationreason-enumeration" FriendlyUrl="reference/enumerationsinitializationreason-enumeration" Scope="Excel, Project, Word"  SEODescription="Specifies whether the add-in was just inserted or was already contained in the document." />
+      <Item text="ProjectProjectFields enumeration" url="shared/projectprojectfields-enumeration" FriendlyUrl="reference/enumerationsprojectprojectfields-enumeration" Scope="project" SEODescription="Specifies the project fields that are available as a parameter for the getProjectFieldAsync method." />
+      <Item text="ProjectResourceFields enumeration" url="shared/projectresourcefields-enumeration" FriendlyUrl="reference/enumerationsprojectresourcefields-enumeration" Scope="project" SEODescription="Specifies the resource fields that are available as a parameter for the getResourceFieldAsync method." />
+      <Item text="ProjectTaskFields enumeration" url="shared/projecttaskfields-enumeration" FriendlyUrl="reference/enumerationsprojecttaskfields-enumeration" Scope="project" SEODescription="Specifies the task fields that are available as a parameter for the getTaskFieldAsync method." />
+      <Item text="ProjectViewTypes enumeration" url="shared/projectviewtypes-enumeration" FriendlyUrl="reference/enumerationsprojectviewtypes-enumeration" Scope="project" SEODescription="Specifies the types of views that the getSelectedViewAsync method can recognize." />
+      <Item text="SelectionMode enumeration" url="shared/selectionmode-enumeration" FriendlyUrl="reference/enumerationsselectionmode-enumeration" Scope="project" SEODescription="Selects the picture and navigates the Word UI to it. The selectionMode values can be Select, Start, or End." />
+      <Item text="Table enumeration" url="shared/table-enumeration" Scope="excel" SEODescription="Specifies enumerated values for the cells: property in the cellFormat parameter of table formatting methods." />
+      <Item text="ValueFormat enumeration" url="shared/valueformat-enumeration" Scope="Excel, Project, Word" SEODescription="Specifies whether values, such as numbers and dates, returned by the invoked method are returned with their formatting applied." />
       </Item>
     <Item text="AsyncResult" url="shared/asyncresult" >
       <Item text="AsyncResult.asyncContext" url="shared/asyncresult.asynccontext" SEODescription="" />

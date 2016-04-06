@@ -60,13 +60,17 @@
     <Item text="Troubleshoot user errors" url="testing/testing-and-troubleshooting" SEODescription="Troubleshoot issues your users are having with Office Add-ins."  />
   </Item>
   <Item text="Word" url="word" Scope="word">
-    <Item text="Word JavaScript API programming overview" url="word/word-add-ins-programming-overview" SEODescription="Learn about proxy objects" Scope="word" />
+    <Item text="Word JavaScript API programming overview" url="word/word-add-ins-programming-overview" SEODescription="Use the JavaScript APIs to build add-ins for Word 2016." Scope="word" />
     <Item text="Build your first Word add-in" url="word/word-add-ins" SEODescription="Use Word Add-ins to extend the functionality of Word and to integrate Word with other applications." Scope="word" />
 	<Item text="Create better add-ins for Word with Office Open XML" url="word/create-better-add-ins-for-word-with-office-open-xml" SEODescription="Use Office Open XML to insert rich content via Word add-ins. Edit the Office Open XML to simplify the markup and minimize the payload." Scope="word" />
     <Item text="Dictionary task pane add-ins" url="word/dictionary-task-pane-add-ins"  />
 	<Item text="Get the whole document from an add-in for PowerPoint or Word" url="develop/get-the-whole-document-from-an-add-in-for-powerpoint-or-word"  />
   	<Item text="Read and write data to the active selection in a document or spreadsheet" url="develop/read-and-write-data-to-the-active-selection-in-a-document-or-spreadsheet"  />
   	<Item text="Bind to regions in a document or spreadsheet" url="develop/bind-to-regions-in-a-document-or-spreadsheet"  />
+  </Item>
+  <Item text="OneNote" url="onenote" Scope="onenote">
+	<Item text="OneNote JavaScript API programming overview (Preview)" url="onenote/onenote-add-ins-programming-overview" SEODescription="Use the JavaScript APIs to build add-ins for OneNote." Scope="onenote" />
+	<Item text="Build your first OneNote add-in (Preview)" url="onenote/onenote-add-ins-getting-started" SEODescription="Create a simple task pane add-in for OneNote." Scope="onenote" />
   </Item>
   <Item text="Excel" url="excel" Scope="excel">
     <Item text="Excel JavaScript API programming overview" url="excel/excel-add-ins-javascript-programming-overview" SEODescription="Use the JavaScript APIs to build add-ins for Excel 2016." Scope="excel" />

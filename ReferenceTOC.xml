@@ -359,7 +359,7 @@
     <Item text="section" url="word/section" FriendlyUrl="word/referencesection" Scope="word" SEODescription="Represents a section in a Word document." />
     <Item text="sectionCollection" url="word/sectioncollection" FriendlyUrl="word/referencesectioncollection" Scope="word" SEODescription="Contains the collection of the document's section objects." />
   </Item>
-  <Item text="OneNote" url="onenote" Scope="onenote">
+  <Item text="OneNote" url="onenote/onenote-add-ins-javascript-reference" Scope="onenote">
     <Item text="Application" url="onenote/application" SEODescription="OneNote Add-ins Preview Reference." />
     <Item text="Notebook" url="onenote/notebook" SEODescription="OneNote Add-ins Preview Reference." />
     <Item text="Notebookcollection" url="onenote/notebookcollection" SEODescription="OneNote Add-ins Preview Reference." />

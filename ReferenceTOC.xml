@@ -43,6 +43,27 @@
     <Item text="targetdialects" url="manifest/targetdialects" Scope="excel, word, powerpoint, project" SEODescription="Defines the dialect(s) supported by this dictionary." />
     <Item text="version" url="manifest/version" SEODescription="Specifies the version of your Office Add-in." />
   </Item>
+  
+  <Item text="Word" url="word/word-add-ins-javascript-reference" Scope="word" SEODescription="Word Add-ins Javascript Reference overview">
+    <Item text="body" url="word/body" SEODescription="Represents the body of a document or a section." />
+    <Item text="breakType" url="word/breaktype" FriendlyUrl="word/referencebreaktype" Scope="word" SEODescription="Specifies the form of a break." />
+    <Item text="contentControl" url="word/contentcontrol" FriendlyUrl="word/referencecontentcontrol" Scope="word" SEODescription="Represents a content control. Content controls are bounded and potentially labeled regions in a document that serve as containers for specific types of content."  />
+    <Item text="contentControlCollection" url="word/contentcontrolcollection" FriendlyUrl="word/referencecontentcontrolcollection" Scope="word" SEODescription="Contains a collection of ContentControl objects. Content controls are bounded and potentially labeled regions in a document that serve as containers for specific types of content."  />
+    <Item text="document" url="word/document" FriendlyUrl="word/referencedocument" Scope="word" SEODescription="The Document object is the top level object. A Document object contains one or more sections, content controls, and the body that contains the contents of the document." />
+    <Item text="font" url="word/font" FriendlyUrl="word/referencefont" Scope="word" SEODescription="Represents a font." />
+    <Item text="inlinePicture" url="word/inlinepicture" FriendlyUrl="word/referenceinlinepicture" Scope="word" SEODescription="Represents an inline picture." />
+    <Item text="inlinePictureCollection" url="word/inlinepicturecollection" FriendlyUrl="word/referenceinlinepicturecollection" Scope="word" SEODescription="Contains a collection of inlinePicture objects." />
+    <Item text="loadOption" url="word/loadoption" SEODescription="An object that specifies paging information and the properties to load when context.sync() is called." />
+    <Item text="paragraph" url="word/paragraph" FriendlyUrl="word/referenceparagraph" Scope="word" SEODescription="Represents a single paragraph in a selection, range, content control, or document body." />
+    <Item text="paragraphCollection" url="word/paragraphcollection" FriendlyUrl="word/referenceparagraphcollection" Scope="word" SEODescription="Contains a collection of paragraph objects." />
+    <Item text="range" url="word/range" SEODescription="Represents a contiguous area in a document." />
+    <Item text="requestContext" url="word/requestcontext" SEODescription="The RequestContext object facilitates requests to the Word application from the Word add-in since the two applications run in different processes." />
+    <Item text="searchOptions" url="word/searchoptions" FriendlyUrl="word/referencesearchoptions" Scope="word" SEODescription="Specifies the options to be included in a search operation." />
+    <Item text="searchResultCollection" url="word/searchresultcollection" FriendlyUrl="word/referencesearchresultcollection" Scope="word" SEODescription="Contains a collection of range objects as a result of a search operation." />
+    <Item text="section" url="word/section" FriendlyUrl="word/referencesection" Scope="word" SEODescription="Represents a section in a Word document." />
+    <Item text="sectionCollection" url="word/sectioncollection" FriendlyUrl="word/referencesectioncollection" Scope="word" SEODescription="Contains the collection of the document's section objects." />
+  </Item>
+  
   <Item text="Excel" url="excel" Scope="excel">
     <Item text="Application" url="excel/application" SEODescription="Represents the Excel application that manages the workbook." />
     <Item text="Binding" url="excel/binding" SEODescription="Represents an Office.js binding that is defined in the workbook." />
@@ -340,25 +361,7 @@
     <Item text="LabsJS.Labs" url="office-mix/labsjs.labs" FriendlyUrl="powerpoint/office-mix/referencelabsjs.labs" Scope="powerpoint"  />
   </Item>
   </Item>
-  <Item text="Word" url="word/word-add-ins-javascript-reference" Scope="word" SEODescription="Word Add-ins Javascript Reference overview">
-    <Item text="body" url="word/body" SEODescription="Represents the body of a document or a section." />
-    <Item text="breakType" url="word/breaktype" FriendlyUrl="word/referencebreaktype" Scope="word" SEODescription="Specifies the form of a break." />
-    <Item text="contentControl" url="word/contentcontrol" FriendlyUrl="word/referencecontentcontrol" Scope="word" SEODescription="Represents a content control. Content controls are bounded and potentially labeled regions in a document that serve as containers for specific types of content."  />
-    <Item text="contentControlCollection" url="word/contentcontrolcollection" FriendlyUrl="word/referencecontentcontrolcollection" Scope="word" SEODescription="Contains a collection of ContentControl objects. Content controls are bounded and potentially labeled regions in a document that serve as containers for specific types of content."  />
-    <Item text="document" url="word/document" FriendlyUrl="word/referencedocument" Scope="word" SEODescription="The Document object is the top level object. A Document object contains one or more sections, content controls, and the body that contains the contents of the document." />
-    <Item text="font" url="word/font" FriendlyUrl="word/referencefont" Scope="word" SEODescription="Represents a font." />
-    <Item text="inlinePicture" url="word/inlinepicture" FriendlyUrl="word/referenceinlinepicture" Scope="word" SEODescription="Represents an inline picture." />
-    <Item text="inlinePictureCollection" url="word/inlinepicturecollection" FriendlyUrl="word/referenceinlinepicturecollection" Scope="word" SEODescription="Contains a collection of inlinePicture objects." />
-    <Item text="loadOption" url="word/loadoption" SEODescription="An object that specifies paging information and the properties to load when context.sync() is called." />
-    <Item text="paragraph" url="word/paragraph" FriendlyUrl="word/referenceparagraph" Scope="word" SEODescription="Represents a single paragraph in a selection, range, content control, or document body." />
-    <Item text="paragraphCollection" url="word/paragraphcollection" FriendlyUrl="word/referenceparagraphcollection" Scope="word" SEODescription="Contains a collection of paragraph objects." />
-    <Item text="range" url="word/range" SEODescription="Represents a contiguous area in a document." />
-    <Item text="requestContext" url="word/requestcontext" SEODescription="The RequestContext object facilitates requests to the Word application from the Word add-in since the two applications run in different processes." />
-    <Item text="searchOptions" url="word/searchoptions" FriendlyUrl="word/referencesearchoptions" Scope="word" SEODescription="Specifies the options to be included in a search operation." />
-    <Item text="searchResultCollection" url="word/searchresultcollection" FriendlyUrl="word/referencesearchresultcollection" Scope="word" SEODescription="Contains a collection of range objects as a result of a search operation." />
-    <Item text="section" url="word/section" FriendlyUrl="word/referencesection" Scope="word" SEODescription="Represents a section in a Word document." />
-    <Item text="sectionCollection" url="word/sectioncollection" FriendlyUrl="word/referencesectioncollection" Scope="word" SEODescription="Contains the collection of the document's section objects." />
-  </Item>
+  
   <Item text="OneNote" url="onenote/onenote-add-ins-javascript-reference" Scope="onenote">
     <Item text="Application" url="onenote/application" SEODescription="OneNote Add-ins Preview Reference." />
     <Item text="Notebook" url="onenote/notebook" SEODescription="OneNote Add-ins Preview Reference." />

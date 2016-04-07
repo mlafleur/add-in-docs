@@ -18,7 +18,7 @@
       <Item text="Layouts for Outlook add-ins" url="design/ui-elements/layouts-for-outlook-add-ins" SEODescription="Use these layouts for mail add-ins" Scope="outlook" />
       <Item text="Using Office UI Fabric" url="design/ui-elements/using-office-ui-fabric" SEODescription="Walks you through the basics for using Fabric."/>
     </Item>
-	<Item text="Add-in commands for Excel and Word (Preview)" url="design/add-in-commands" SEODescription="Use add-in commands in your add-in to extend the default Office UI in Excel, Word, and PowerPoint."  />
+	<Item text="Add-in commands for Excel, Word, and PowerPoint" url="design/add-in-commands" SEODescription="Use add-in commands in your add-in to extend the default Office UI in Excel, Word, and PowerPoint."  />
 	<Item text="Design Office Add-ins for the iPad" url="design/design-office-add-ins-for-the-ipad"  SEODescription="Make your Office Add-ins available in Office for iPad." />
   </Item>
   <Item text="Develop" url="develop">

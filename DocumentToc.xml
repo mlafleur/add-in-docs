@@ -25,7 +25,6 @@
 	<Item text="Add-in development lifecycle" url="design/add-in-development-lifecycle" SEODescription="Plan the end-to-end process for developing task pane, content, and Outlook add-ins to extend Office applications." />
 	<Item text="Manifest" url="overview/add-in-manifests">	
 		<Item text="Specify Office hosts" url="overview/specify-office-hosts-and-api-requirements" SEODescription="" /> 	
-		<Item text="Create add-in commands in your manifest (Preview)" url="design/create-add-in-commands-in-your-manifest-preview" SEODescription="Add-in commands provide an easy way to customize the default Office UI with specified UI elements that perform actions."   />
 		<Item text="Requesting permissions for API use in content and task pane add-ins" url="develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins" SEODescription=""  />
 		<Item text="Update API and manifest version" url="develop/update-your-javascript-api-for-office-and-manifest-schema-version" SEODescription="Update the JavaScript files (Office.js and app-specific .js files) and the add-in manifest validation file used in your Office Add-in project to version 1.1." />
 	</Item>	

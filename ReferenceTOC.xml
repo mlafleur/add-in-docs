@@ -93,6 +93,7 @@
     <Item text="ChartSeriesFormat" url="excel/chartseriesformat" SEODescription="Encapsulates the format properties for the chart series." />
     <Item text="ChartTitle" url="excel/charttitle" SEODescription="Represents a chart title object of a chart." />
     <Item text="ChartTitleformat" url="excel/charttitleFormat" SEODescription="Provides access to the Office art formatting for the chart title." />
+    <Item text="Filter" url="excel/filter" SEODescription="Manages the filtering of a table's column." />
     <Item text="LoadOption" url="excel/loadoption" SEODescription="Represents an object that can be passed to the load method to specify the set of properties and relations to be loaded upon execution of sync() method that synchronizes the states between Excel objects and corresponding JavaScript proxy objects in the add-in. " />
     <Item text="NamedItem" url="excel/nameditem" SEODescription="Represents a defined name for a range of cells or a value. " />
     <Item text="NamedItemCollection" url="excel/nameditemcollection" SEODescription="A collection of all the nameditem objects that are part of the workbook." />
@@ -102,6 +103,7 @@
     <Item text="RangeFill" url="excel/rangefill" SEODescription="Represents the background of a range object." />
     <Item text="RangeFont" url="excel/rangefont" SEODescription="This object represents the font attributes (font name, font size, color, etc.) for an object." />
     <Item text="RangeFormat" url="excel/rangeformat" SEODescription="A format object encapsulating the range's font, fill, borders, alignment, and other properties." />
+    <Item text="RangeSort" url="excel/rangesort" SEODescription="Manages sorting operations on Range objects." />
     <Item text="Requestcontext" url="excel/requestcontext" SEODescription="The RequestContext object facilitates requests to the Excel application. " />
     <Item text="Table" url="excel/table" SEODescription="Represents an Excel table." />
     <Item text="TableCollection" url="excel/tablecollection" SEODescription="Represents a collection of all the tables that are part of the workbook." />
@@ -109,11 +111,15 @@
     <Item text="TableColumnCollection" url="excel/tablecolumncollection" SEODescription="Represents a collection of all the columns that are part of the table." />
     <Item text="TableRow" url="excel/tablerow" SEODescription="Represents a row in a table." />
     <Item text="TableRowCollection" url="excel/tablerowCollection" SEODescription="Represents a collection of all the rows that are part of the table." />
+    <Item text="TableSort" url="excel/tablesort" SEODescription="Manages sorting operations on Table objects." />
     <Item text="TrackedObjectsCollection" url="excel/trackedobjectscollection" SEODescription="Allows add-ins to manage range object references across sync() batches." />
     <Item text="Workbook" url="excel/workbook" SEODescription="Workbook is the top-level object that contains related workbook objects such as worksheets, tables, ranges, etc." />
     <Item text="Worksheet" url="excel/worksheet" SEODescription="An Excel worksheet is a grid of cells. It can contain data, tables, charts, etc." />
     <Item text="WorksheetCollection" url="excel/worksheetcollection" SEODescription="Represents a collection of worksheet objects that are part of the workbook." />
+    <Item text="WorksheetFunctions" url="excel/functions" SEODescription="Used as a container for Microsoft Excel worksheet functions that can be called through JavaScript or REST." />
+    <Item text="WorksheetProtection" url="excel/worksheetprotection" SEODescription="Represents the protection of a sheet object." />
   </Item>
+  
   <Item text="Outlook" url="outlook" Scope="Outlook">
 		<Item text="1.1" url="outlook/1.1/index" Version="V1.1">
 		  <Item text="Object Models" url="outlook/1.1" Version="V1.1">

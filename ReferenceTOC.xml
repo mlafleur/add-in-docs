@@ -612,6 +612,7 @@
     </Item>
     <Item text="event.completed" url="shared/event.completed" FriendlyUrl="reference/common/officeevent.completed" Scope="outlook" SEODescription="The callback that the add-in invokes to let Outlook know that the operation is done." />
     <Item text="event.source.id" url="shared/event.source.id" FriendlyUrl="reference/common/officeevent.source.id" Scope="outlook" SEODescription="Gets the id of the control that triggered calling this function." />
+    <Item text="Office UI" FriendlyUrl="shared/officeui" Scope="outlook, excel, word, powerpoint" SEODescription="The Office UI Namespace provides objects and methods used to create UI components for add-ins." />
   </Item>
   
 </Menu>

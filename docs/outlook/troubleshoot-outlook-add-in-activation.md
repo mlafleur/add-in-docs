@@ -198,7 +198,7 @@ If you use an  **ItemHasRegularExpressionMatch** activation rule, verify whether
     
 - If the selected item is an appointment, or if the activation rule specifies  **BodyAsPlaintext** in the **PropertyName**, you can use the Outlook object model and the Visual Basic Editor in Outlook for Windows:
     
-      1. Ensure that macros are enabled and the  **Developer** tab is displayed in the ribbon for Outlook. If you're not sure how to do this, see Steps 1 and 2 under [Is the user mailbox on a version of Exchange Server that is at least Exchange 2013?](#TroubleshootingMailApps_MailboxE15)
+      1. Ensure that macros are enabled and the  **Developer** tab is displayed in the ribbon for Outlook. If you're not sure how to do this, see Steps 1 and 2 under [Is the user mailbox on a version of Exchange Server that is at least Exchange 2013?](#is-the-user-mailbox-on-a-version-of-exchange-server-that-is-at-least-exchange-2013)
     
       2. In the Visual Basic Editor, choose  **View**,  **Immediate Window**.
     
